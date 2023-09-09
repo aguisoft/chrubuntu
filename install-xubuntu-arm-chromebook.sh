@@ -175,7 +175,7 @@ if [[ "${IMAGE_FILE}" =~ "http" ]]; then
   else
     echo "Downloading $IMAGE_FILE..."
     untar_file="/mnt/stateful_partition/$base_image_file"
-    wget -c -O "/mnt/stateful_partition/$base_image_file" "$IMAGE_FILE"
+    curl -o "/mnt/stateful_partition/$base_image_file" "$IMAGE_FILE"
     if [ $? -ne 0 ] ; then
       echo "Download failed!"
       exit 1
