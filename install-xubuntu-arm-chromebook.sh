@@ -1,7 +1,7 @@
 #!/bin/bash
 # Based on Chrubuntu 34v87 script
 
-BASE_IMAGE_FILE="http://cdimage.ubuntu.com/ubuntu-core/daily/current/raring-core-armhf.tar.gz"
+BASE_IMAGE_FILE="http://old-releases.ubuntu.com/releases/ubuntu-core/releases/13.04/release/ubuntu-core-13.04-core-armhf.tar.gz"
 
 # fw_type will always be developer for Mario.
 # Alex and ZGB need the developer BIOS installed though.
